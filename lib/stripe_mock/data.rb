@@ -412,5 +412,34 @@ module StripeMock
         :id => "di_test_coupon"
       }
     end
+
+    def self.mock_transaction
+      {
+        :object => "list",
+        :count => 1,
+        :url => "/v1/transfers/tr_2h8RC13PPvwDZs/transactions",
+        :data => [
+          {
+            :id => "ch_2fb4RERw49oI8s",
+            :type => "charge",
+            :amount => 100,
+            :currency => "usd",
+            :net => 67,
+            :created => 1380582860,
+            :description => nil,
+            :fee => 33,
+            :fee_details => [
+              {
+                :amount => 33,
+                :currency => "usd",
+                :type => "stripe_fee",
+                :description => "Stripe processing fees",
+                :application => nil
+              }
+            ]
+          }
+        ]
+      }
+    end
   end
 end
