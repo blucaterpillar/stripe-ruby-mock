@@ -15,7 +15,7 @@ module StripeMock
         # transactions = transfer[:transactions]
         # transactions[:count] = transfers[:data].length
         # transactions
-        Data.mock_transaction
+        Data.mock_transaction(params)
       end
 
     end

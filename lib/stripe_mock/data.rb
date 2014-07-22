@@ -413,7 +413,7 @@ module StripeMock
       }
     end
 
-    def self.mock_transaction
+    def self.mock_transaction(params={})
       {
         :object => "list",
         :count => 1,
@@ -422,15 +422,15 @@ module StripeMock
           {
             :id => "ch_2fb4RERw49oI8s",
             :type => "charge",
-            :amount => 100,
+            :amount => 50000,
             :currency => "usd",
-            :net => 67,
+            :net => 49730,
             :created => 1380582860,
             :description => nil,
-            :fee => 33,
+            :fee => 270,
             :fee_details => [
               {
-                :amount => 33,
+                :amount => 270,
                 :currency => "usd",
                 :type => "stripe_fee",
                 :description => "Stripe processing fees",
@@ -439,7 +439,7 @@ module StripeMock
             ]
           }
         ]
-      }
+      }.merge(params)
     end
   end
 end
