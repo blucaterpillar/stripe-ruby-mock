@@ -418,8 +418,8 @@ module StripeMock
         :object => "list",
         :count => 1,
         :url => "/v1/transfers/tr_2h8RC13PPvwDZs/transactions",
-        :total_count => 4
-        :has_more => false
+        :total_count => 4,
+        :has_more => false,
         :data => [
           {
             :id => "ch_2fb4RERw49oI8s",
