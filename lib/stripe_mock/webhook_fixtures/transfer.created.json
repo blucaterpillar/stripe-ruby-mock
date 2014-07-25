@@ -51,6 +51,8 @@
       "transactions": {
         "object": "list",
         "count": 1,
+        "total_count": 4,
+        "has_more": false,
         "url": "/v1/transfers/tr_2h8RC13PPvwDZs/transactions",
         "data": [
           {
