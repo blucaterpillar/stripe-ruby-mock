@@ -71,6 +71,63 @@
                 "application": null
               }
             ]
+          },
+          {
+            "id": "ch_3fb4RERw49oI8s",
+            "type": "charge",
+            "amount": 100,
+            "currency": "usd",
+            "net": 67,
+            "created": 1380582860,
+            "description": null,
+            "fee": 33,
+            "fee_details": [
+              {
+                "amount": 33,
+                "currency": "usd",
+                "type": "stripe_fee",
+                "description": "Stripe processing fees",
+                "application": null
+              }
+            ]
+          },
+          {
+            "id": "ch_4fb4RERw49oI8s",
+            "type": "charge",
+            "amount": 100,
+            "currency": "usd",
+            "net": 67,
+            "created": 1380582860,
+            "description": null,
+            "fee": 33,
+            "fee_details": [
+              {
+                "amount": 33,
+                "currency": "usd",
+                "type": "stripe_fee",
+                "description": "Stripe processing fees",
+                "application": null
+              }
+            ]
+          },
+          {
+            "id": "ch_5fb4RERw49oI8s",
+            "type": "charge",
+            "amount": 100,
+            "currency": "usd",
+            "net": 67,
+            "created": 1380582860,
+            "description": null,
+            "fee": 33,
+            "fee_details": [
+              {
+                "amount": 33,
+                "currency": "usd",
+                "type": "stripe_fee",
+                "description": "Stripe processing fees",
+                "application": null
+              }
+            ]
           }
         ]
       },

@@ -437,6 +437,63 @@ module StripeMock
                 :application => nil
               }
             ]
+          },
+          {
+            :id => "ch_3fb4RERw49oI8s",
+            :type => "charge",
+            :amount => 50000,
+            :currency => "usd",
+            :net => 49730,
+            :created => 1380582860,
+            :description => nil,
+            :fee => 270,
+            :fee_details => [
+              {
+                :amount => 270,
+                :currency => "usd",
+                :type => "stripe_fee",
+                :description => "Stripe processing fees",
+                :application => nil
+              }
+            ]
+          },
+          {
+            :id => "ch_4fb4RERw49oI8s",
+            :type => "charge",
+            :amount => 50000,
+            :currency => "usd",
+            :net => 49730,
+            :created => 1380582860,
+            :description => nil,
+            :fee => 270,
+            :fee_details => [
+              {
+                :amount => 270,
+                :currency => "usd",
+                :type => "stripe_fee",
+                :description => "Stripe processing fees",
+                :application => nil
+              }
+            ]
+          },
+          {
+            :id => "ch_5fb4RERw49oI8s",
+            :type => "charge",
+            :amount => 50000,
+            :currency => "usd",
+            :net => 49730,
+            :created => 1380582860,
+            :description => nil,
+            :fee => 270,
+            :fee_details => [
+              {
+                :amount => 270,
+                :currency => "usd",
+                :type => "stripe_fee",
+                :description => "Stripe processing fees",
+                :application => nil
+              }
+            ]
           }
         ]
       }.merge(params)
