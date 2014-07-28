@@ -424,15 +424,15 @@ module StripeMock
           {
             :id => "ch_2fb4RERw49oI8s",
             :type => "charge",
-            :amount => 50000,
+            :amount => 100,
             :currency => "usd",
-            :net => 49730,
+            :net => 67,
             :created => 1380582860,
             :description => nil,
-            :fee => 270,
+            :fee => 33,
             :fee_details => [
               {
-                :amount => 270,
+                :amount => 33,
                 :currency => "usd",
                 :type => "stripe_fee",
                 :description => "Stripe processing fees",
@@ -443,15 +443,15 @@ module StripeMock
           {
             :id => "ch_3fb4RERw49oI8s",
             :type => "charge",
-            :amount => 50000,
+            :amount => 100,
             :currency => "usd",
-            :net => 49730,
+            :net => 67,
             :created => 1380582860,
             :description => nil,
-            :fee => 270,
+            :fee => 33,
             :fee_details => [
               {
-                :amount => 270,
+                :amount => 33,
                 :currency => "usd",
                 :type => "stripe_fee",
                 :description => "Stripe processing fees",
@@ -462,15 +462,15 @@ module StripeMock
           {
             :id => "ch_4fb4RERw49oI8s",
             :type => "charge",
-            :amount => 50000,
+            :amount => 100,
             :currency => "usd",
-            :net => 49730,
+            :net => 67,
             :created => 1380582860,
             :description => nil,
-            :fee => 270,
+            :fee => 33,
             :fee_details => [
               {
-                :amount => 270,
+                :amount => 33,
                 :currency => "usd",
                 :type => "stripe_fee",
                 :description => "Stripe processing fees",
@@ -481,15 +481,15 @@ module StripeMock
           {
             :id => "ch_5fb4RERw49oI8s",
             :type => "charge",
-            :amount => 50000,
+            :amount => 100,
             :currency => "usd",
-            :net => 49730,
+            :net => 67,
             :created => 1380582860,
             :description => nil,
-            :fee => 270,
+            :fee => 33,
             :fee_details => [
               {
-                :amount => 270,
+                :amount => 33,
                 :currency => "usd",
                 :type => "stripe_fee",
                 :description => "Stripe processing fees",
